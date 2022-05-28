@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(rgb(170, 170, 170), rgb(170, 169, 169));
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+}
+
+.cont-padre {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-hijo-form {
+    width: 30%;
+    padding: 2%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+div.input-form {
+    margin: 10px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cont-hijo-table {
+    background: rgb(201, 201, 201);
+    width: 60%;
+    padding: 2% 1%;
+}
+
+.table {
+    background-color: azure;
+}
+
+.columna tr {
+    margin: 5px;
+    padding: 3px;
+    background-color: rgb(209, 209, 209);
+    color: rgba(8, 0, 47, 0.789);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+tbody>tr>th>a.link-update {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+tbody>tr>th>a.link-update:hover {
+    color: rgb(102, 131, 246);
+}
+
+tbody>tr>th>a.link-delete {
+    color: rgb(193, 59, 59);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+tbody>tr>th>a.link-delete:hover {
+    color: rgb(75, 2, 2);
+}
+
+.cont-padre .form {
+    background: rgb(201, 201, 201);
+    width: 30%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
